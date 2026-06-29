@@ -2,7 +2,7 @@
 
 **Interview Ready Answer:**
 
-"Hi, my name is Bikash. I have around X years of experience in DevOps and Cloud Engineering with primary expertise in Azure Cloud, Azure DevOps, Terraform, Docker, Kubernetes, CI/CD, and Infrastructure as Code.
+"Hi, my name is SR. I have around 5 years of experience in DevOps and Cloud Engineering with primary expertise in Azure Cloud, Azure DevOps, Terraform, Docker, Kubernetes, CI/CD, and Infrastructure as Code.
 
 In my current role, I am responsible for designing and managing cloud infrastructure, automating deployments, building CI/CD pipelines, implementing security controls, and supporting production environments. I have worked extensively on Azure services such as Virtual Machines, AKS, Load Balancers, Application Gateway, Key Vault, Storage Accounts, and Azure Monitor.
 

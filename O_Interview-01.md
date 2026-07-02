@@ -2,9 +2,7 @@
 
 ---
 
-# 1. Corrected Question
-
-**Describe a system you designed that had to scale from moderate to very high traffic. What bottlenecks did you anticipate, and how did you architect the system to handle them?**
+# 1. **Describe a system you designed that had to scale from moderate to very high traffic. What bottlenecks did you anticipate, and how did you architect the system to handle them?**
 
 ## Interview Ready Answer
 
@@ -45,9 +43,7 @@ Yes. One of the production systems I worked on was an Azure-based microservices 
 
 ---
 
-# 2. Corrected Question
-
-**What activities do you perform while managing a Kubernetes cluster?**
+# 2. **What activities do you perform while managing a Kubernetes cluster?**
 
 ## Interview Ready Answer
 
@@ -72,9 +68,7 @@ As an Azure DevOps Engineer, my Kubernetes responsibilities include:
 
 ---
 
-# 3. Corrected Question
-
-**How do you manage secrets used by applications running inside Kubernetes?**
+# 3. **How do you manage secrets used by applications running inside Kubernetes?**
 
 ## Interview Ready Answer
 
@@ -92,9 +86,7 @@ This provides centralized secret management and automatic secret rotation.
 
 ---
 
-# 4. Corrected Question
-
-**Do you create Kubernetes Secrets from Azure Key Vault, or do you use another approach?**
+# 4. **Do you create Kubernetes Secrets from Azure Key Vault, or do you use another approach?**
 
 ## Interview Ready Answer
 
@@ -110,9 +102,7 @@ So Azure Key Vault remains the source of truth, while Kubernetes Secrets become 
 
 ---
 
-# 5. Corrected Question
-
-**Where are your secrets stored—Kubernetes Secrets or Azure Key Vault?**
+# 5. **Where are your secrets stored—Kubernetes Secrets or Azure Key Vault?**
 
 ## Interview Ready Answer
 
@@ -131,9 +121,7 @@ Advantages of Azure Key Vault:
 
 ---
 
-# 6. Corrected Question
-
-**If you were creating an AKS cluster from scratch, what components would you include?**
+# 6. **If you were creating an AKS cluster from scratch, what components would you include?**
 
 ## Interview Ready Answer
 
@@ -163,9 +151,7 @@ Typical production AKS architecture includes:
 
 ---
 
-# 7. Corrected Question
-
-**Which Ingress Controller would you use?**
+# 7. **Which Ingress Controller would you use?**
 
 ## Interview Ready Answer
 
@@ -184,9 +170,7 @@ NGINX is no longer my preferred recommendation for new Azure deployments.
 
 ---
 
-# 8. Corrected Question
-
-**Since the NGINX Ingress Controller is being deprecated in some Azure scenarios, what would you use instead?**
+# 8. **Since the NGINX Ingress Controller is being deprecated in some Azure scenarios, what would you use instead?**
 
 ## Interview Ready Answer
 
@@ -205,9 +189,7 @@ Reasons:
 
 ---
 
-# 9. Corrected Question
-
-**Were there any features provided by the NGINX Ingress Controller that were missing in Application Gateway Ingress Controller?**
+# 9. **Were there any features provided by the NGINX Ingress Controller that were missing in Application Gateway Ingress Controller?**
 
 ## Interview Ready Answer
 
@@ -234,9 +216,7 @@ If advanced traffic management is required, NGINX or a service mesh like Istio o
 
 ---
 
-# 10. Corrected Question
-
-**How does the Horizontal Pod Autoscaler (HPA) perform auto-scaling?**
+# 10. **How does the Horizontal Pod Autoscaler (HPA) perform auto-scaling?**
 
 ## Interview Ready Answer
 
@@ -273,9 +253,7 @@ The HPA controller periodically evaluates metrics (typically every 15 seconds) a
 
 ---
 
-# 11. Corrected Question
-
-**During peak traffic, HPA has scaled the Deployment to six replicas. If I deploy a new version, the new ReplicaSet initially starts with only two replicas before HPA scales it back to six. How can you avoid this behavior?**
+# 11. **During peak traffic, HPA has scaled the Deployment to six replicas. If I deploy a new version, the new ReplicaSet initially starts with only two replicas before HPA scales it back to six. How can you avoid this behavior?**
 
 ## Interview Ready Answer
 
@@ -304,9 +282,7 @@ This allows Kubernetes to create additional pods while maintaining existing capa
 
 ---
 
-# 12. Corrected Question
-
-**How can you fail a CI/CD pipeline if the newly deployed pods are in CrashLoopBackOff, ImagePullBackOff, or another unhealthy state?**
+# 12. **How can you fail a CI/CD pipeline if the newly deployed pods are in CrashLoopBackOff, ImagePullBackOff, or another unhealthy state?**
 
 ## Interview Ready Answer
 
@@ -344,9 +320,7 @@ the pipeline exits with a non-zero status and the deployment is marked as failed
 
 ---
 
-# 13. Corrected Question
-
-**If you are deploying with Helm, how would you fail the pipeline when deployment is unsuccessful?**
+# 13. **If you are deploying with Helm, how would you fail the pipeline when deployment is unsuccessful?**
 
 ## Interview Ready Answer
 
@@ -368,9 +342,7 @@ If readiness checks fail, Helm exits with a non-zero status, causing the pipelin
 
 ---
 
-# 14. Corrected Question
-
-**Do you prefer creating your own Terraform modules or using existing ones?**
+# 14. **Do you prefer creating your own Terraform modules or using existing ones?**
 
 ## Interview Ready Answer
 
@@ -392,9 +364,7 @@ For organization-specific standards, I build custom modules to enforce:
 
 ---
 
-# 15. Corrected Question
-
-**What is your opinion on using Terraform modules available on the internet?**
+# 15. **What is your opinion on using Terraform modules available on the internet?**
 
 ## Interview Ready Answer
 
@@ -435,9 +405,7 @@ It is especially useful for enterprise-scale infrastructure.
 
 ---
 
-# 17. Corrected Question
-
-**What additional files are commonly used in a Terragrunt project?**
+# 17. **What additional files are commonly used in a Terragrunt project?**
 
 ## Interview Ready Answer
 
@@ -454,9 +422,7 @@ These files centralize configuration and reduce duplication across environments.
 
 ---
 
-# 18. Corrected Question
-
-**Which Azure resources have you worked with?**
+# 18. **Which Azure resources have you worked with?**
 
 ## Interview Ready Answer
 
@@ -487,9 +453,7 @@ I have worked with:
 
 ---
 
-# 19. Corrected Question
-
-**Have you worked with VNet peering?**
+# 19. **Have you worked with VNet peering?**
 
 ## Interview Ready Answer
 
@@ -507,9 +471,7 @@ I have configured:
 
 ---
 
-# 20. Corrected Question
-
-**If two VNets are peered, how would you allow only one subnet in VNet A to communicate with one subnet in VNet B while preventing access from all other subnets?**
+# 20. **If two VNets are peered, how would you allow only one subnet in VNet A to communicate with one subnet in VNet B while preventing access from all other subnets?**
 
 ## Interview Ready Answer
 
@@ -525,9 +487,7 @@ To restrict communication:
 
 ---
 
-# 21. Corrected Question
-
-**Can you describe a production issue you have faced?**
+# 21. **Can you describe a production issue you have faced?**
 
 ## Interview Ready Answer
 
@@ -554,9 +514,7 @@ Result:
 
 ---
 
-# 22. Corrected Question
-
-**What are the different Kubernetes probes?**
+# 22. **What are the different Kubernetes probes?**
 
 ## Interview Ready Answer
 
@@ -570,9 +528,7 @@ Each serves a different purpose.
 
 ---
 
-# 23. Corrected Question
-
-**What happens if a Kubernetes probe fails?**
+# 23. **What happens if a Kubernetes probe fails?**
 
 ## Interview Ready Answer
 
@@ -584,9 +540,7 @@ Depends on the probe.
 
 ---
 
-# 24. Corrected Question
-
-**What happens if the Readiness Probe fails?**
+# 24. **What happens if the Readiness Probe fails?**
 
 ## Interview Ready Answer
 
@@ -601,9 +555,7 @@ However,
 
 ---
 
-# 25. Corrected Question
-
-**What happens if the Liveness Probe fails?**
+# 25. **What happens if the Liveness Probe fails?**
 
 ## Interview Ready Answer
 
@@ -619,9 +571,7 @@ This helps recover from deadlocks or hung applications.
 
 ---
 
-# 26. Corrected Question
-
-**Have you performed any cost optimization?**
+# 26. **Have you performed any cost optimization?**
 
 ## Interview Ready Answer
 
@@ -642,9 +592,7 @@ These efforts reduced monthly Azure costs significantly without affecting applic
 
 ---
 
-# 27. Corrected Question
-
-**Have you performed any security audits?**
+# 27. **Have you performed any security audits?**
 
 ## Interview Ready Answer
 

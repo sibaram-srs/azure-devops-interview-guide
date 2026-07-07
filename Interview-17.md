@@ -706,3 +706,123 @@ Ingress manages external HTTP/HTTPS access to services inside a Kubernetes clust
 **Answer**
 
 "Yes, I have worked with Azure Data Factory from a DevOps and deployment perspective. My experience includes creating CI/CD pipelines for ADF using Azure DevOps, publishing ARM/Bicep templates, parameterizing linked services for different environments, and automating deployments to Development, QA, and Production. I have also managed integration runtimes, triggers, and Key Vault integration. While I am not a data engineer who designs complex ETL pipelines, I am comfortable supporting, automating, and deploying ADF solutions as part of an enterprise DevOps process."
+
+# R-2:
+
+# 1. Why don't you give me a quick introduction of yours and your skills and experience?
+
+"Sure. I have around 8+ years of experience as a DevOps Engineer, with the last several years primarily focused on Azure cloud and DevOps automation. My expertise includes designing and implementing CI/CD pipelines using Azure DevOps, Infrastructure as Code using Terraform and Bicep, containerization with Docker and Kubernetes (AKS), and automating cloud infrastructure deployments.
+
+I've worked extensively on Azure services including App Services, AKS, Virtual Machines, VNets, NSGs, Azure Key Vault, Application Gateway, Azure Front Door, Azure Monitor, Log Analytics, and Azure Storage. My daily responsibilities involve infrastructure automation, release management, monitoring, security implementation, cost optimization, and supporting development teams throughout the software delivery lifecycle."
+
+# 2. What is your current role?
+
+"Currently, I'm working as a Senior Azure DevOps Engineer. I'm responsible for designing and maintaining Azure infrastructure, creating reusable Terraform modules, developing Azure DevOps YAML pipelines, implementing security best practices, managing Kubernetes clusters, and ensuring highly available production environments. I also collaborate with developers, architects, and security teams for application deployments."
+
+# 3. How much actual hands-on coding and programming do you do versus the design part?
+
+"I would say it's around 70% hands-on implementation and 30% architecture/design. Most of my work involves writing Terraform, YAML pipelines, PowerShell, Bash scripts, and automation scripts. Alongside that, I participate in infrastructure design discussions, architecture reviews, and solution planning."
+
+# 4. If you had to do a design and then start the implementation, would you be comfortable?
+
+"Absolutely. That's actually the preferred approach. I usually understand the business requirements first, prepare the infrastructure architecture, identify networking and security requirements, create Terraform or Bicep modules, review the design with stakeholders, and then proceed with implementation through automated CI/CD pipelines."
+
+# 5. What is your reporting structure currently—do you report to a team or a manager?
+
+"I report directly to the DevOps Manager while working closely with Solution Architects, Developers, QA teams, Security teams, and Product Owners in an Agile environment."
+
+# 6. I see you have done fundamentals; do you have any other certifications?
+
+"Yes. I have Azure certifications including AZ-900, AZ-104, and AZ-400 (Azure DevOps Engineer Expert). I've also completed certifications related to Terraform and Kubernetes to strengthen my Infrastructure as Code and container orchestration skills."
+
+(Mention only certifications you actually have.)
+
+# 7. What is your experience with Azure integration services like API Management and Function Apps?
+
+"I've worked with API Management for publishing, securing, and monitoring APIs. I've configured products, subscriptions, policies, rate limiting, OAuth authentication, and backend integrations.
+
+For Azure Function Apps, I've deployed serverless applications using Azure DevOps pipelines, configured managed identities, integrated Key Vault, monitored execution through Application Insights, and managed deployment slots."
+
+# 8. What about Logic App experience?
+
+"I've worked with Logic Apps for workflow automation and system integrations. Typical use cases included triggering workflows based on storage events, processing messages from Service Bus, integrating with APIs, sending notifications, and automating operational tasks."
+
+# 9. What about API Management (APIM)?
+
+"My experience includes deploying APIM using Infrastructure as Code, configuring APIs, backend services, products, subscriptions, custom domains, certificates, policies like IP filtering, JWT validation, rate limiting, caching, request transformation, and monitoring through Azure Monitor."
+
+# 10. If you were asked to create or deploy API Management infrastructure, could you do that?
+
+"Yes. I can provision APIM using Terraform or Bicep, configure networking, custom domains, certificates, managed identities, integrate with backend services, automate deployments through Azure DevOps pipelines, and implement security policies."
+
+# 11. Would you be comfortable with Function Apps, Logic Apps, and Data Factory?
+
+"Yes. While my primary expertise is DevOps and infrastructure automation, I'm comfortable deploying, configuring, monitoring, and managing these services using Infrastructure as Code and CI/CD pipelines."
+
+# 12. What is your experience and comfort level working in PaaS (Platform as a Service)?
+
+"I'm very comfortable with Azure PaaS services. Most of my recent projects have heavily utilized App Services, Function Apps, AKS, Azure SQL, Cosmos DB, API Management, Key Vault, Storage Accounts, Application Gateway, Azure Front Door, and Azure Monitor instead of traditional VM-based deployments."
+
+# 13. If you were asked to manage and deploy the entire suite of Azure integration services, would you be able to handle it?
+
+"Yes. From an infrastructure and DevOps perspective, I can provision, secure, automate deployments, configure networking, integrate monitoring, manage identities, and support Azure integration services through Infrastructure as Code and Azure DevOps."
+
+# 14. Will you be completely okay doing PaaS when you have some VM or infrastructure integration?
+
+"Absolutely. Most enterprise environments are hybrid. I've worked with solutions that combine PaaS services with Virtual Machines, private networking, VPNs, ExpressRoute, Azure Firewall, Private Endpoints, and hybrid connectivity."
+
+# 15. Can you elaborate on your project architecture (e.g., Front Door, Application Gateway, APIM) and your typical tasks?
+
+"Our architecture typically looks like this:
+
+Users → Azure Front Door → Application Gateway (WAF) → API Management → AKS/App Services → Azure SQL/Cosmos DB/Storage.
+
+Private Endpoints secure backend services, Azure Key Vault stores secrets, Azure Monitor and Log Analytics handle monitoring, and Azure DevOps pipelines automate deployments.
+
+My responsibilities include infrastructure provisioning, CI/CD automation, networking, security implementation, monitoring, scaling, backup strategy, and production support."
+
+# 16. Can you work on scaling scalable Azure services, and what is your experience with that?
+
+"Yes. I've configured autoscaling for App Services, AKS node pools, VM Scale Sets, and Application Gateway. I've also optimized performance using Front Door, Azure CDN, caching, monitoring metrics, and load balancing strategies."
+
+# 17. Is your application virtual machine-based or a "virtual application" (PaaS)?
+
+"I've worked on both. Earlier projects were VM-based, but recent enterprise applications are primarily PaaS-based using App Services, AKS, Function Apps, API Management, Azure SQL, and other managed services."
+
+# 18. What is your experience with Bicep scripts, and would you be able to pick it up if you've primarily used Terraform?
+
+"My primary Infrastructure as Code tool has been Terraform. I've also worked with Bicep for Azure-native deployments. Since both are declarative IaC tools, I'm comfortable working with either depending on project requirements."
+
+# 19. Have you worked with Private Endpoints?
+
+"Yes. I've implemented Private Endpoints for Storage Accounts, Azure SQL Database, Key Vault, Cosmos DB, and App Services. I also configured Private DNS Zones, VNet integration, and validated secure private connectivity."
+
+# 20. Regarding networking, have you worked with opening/managing ports, VNets, NSGs, and Firewalls?
+
+"Yes. Networking is part of my regular work. I've configured VNets, subnet design, NSGs, UDRs, Azure Firewall rules, Application Gateway, Load Balancers, Private Endpoints, Bastion, VPN Gateway, ExpressRoute connectivity, and inbound/outbound access rules."
+
+# 21. Can you elaborate on your experience with Azure Key Vault—how did you deploy and use it?
+
+"I've deployed Key Vault using Terraform and Bicep. I configure RBAC or access policies, store application secrets, certificates, and encryption keys, enable soft delete and purge protection, integrate managed identities, and retrieve secrets securely from Azure DevOps pipelines and applications."
+
+# 22. Have you started using any AI tools in your DevOps work?
+
+"Yes. I use AI tools like ChatGPT and GitHub Copilot to generate Terraform modules, PowerShell scripts, YAML pipelines, Kubernetes manifests, troubleshooting suggestions, log analysis, documentation, and scripting improvements. I always validate the generated code before using it in production."
+
+# 23. What's your experience on Azure DevOps?
+
+"I've worked extensively with Azure DevOps for source control, CI/CD pipelines, release automation, work item tracking, artifact management, approvals, environments, branch policies, service connections, variable groups, Key Vault integration, and deployment strategies."
+
+# 24. Can you elaborate on your experience with ADO Repos and Pipelines?
+
+"I've managed Git repositories using branching strategies like GitFlow and trunk-based development. I've created reusable YAML pipelines with templates, multi-stage deployments, environment approvals, artifact publishing, Infrastructure as Code deployment, security scanning, and automated application deployments across Dev, QA, UAT, and Production."
+
+# 25. Did you create those DevOps pipelines from scratch?
+
+"Yes. I've designed and developed Azure DevOps YAML pipelines from scratch, including CI, CD, Infrastructure as Code deployment, reusable templates, parameterized pipelines, approvals, deployment gates, rollback strategies, and environment-specific configurations."
+
+# 26. What about high availability and disaster recovery?
+
+"I've implemented High Availability by deploying resources across Availability Zones, configuring Load Balancers, Azure Front Door, Application Gateway, AKS multi-node clusters, geo-redundant storage, Azure SQL failover groups, and autoscaling.
+
+For Disaster Recovery, I've used Azure Backup, Azure Site Recovery, geo-replication, Recovery Services Vault, backup policies, Infrastructure as Code for environment recreation, documented recovery procedures, and regularly validated RTO and RPO through DR drills."

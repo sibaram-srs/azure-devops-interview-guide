@@ -431,7 +431,7 @@ roles/
 If image already exists:
 
 ```bash
-docker run -d --name nginx-container nginx:latest
+docker run -d -p 808:80 --name nginx-container nginx:latest
 ```
 
 ### Breakdown
